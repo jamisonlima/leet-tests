@@ -1,5 +1,6 @@
 class Solution:
     def find_judge(self, n: int, trust: List[List[int]]) -> int:
+        """A judge doesnt trusts nobody, everybody trusts the judge, and can't exist more than one judge"""
         trusted: List[int] = [0]*n
         trusts: List[int] = [0]*n
         for l in trust:
