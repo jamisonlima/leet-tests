@@ -1,3 +1,3 @@
 # leet-tests
 
-Uploading valid 1337code tests
+Uploading solved 1337code tests
